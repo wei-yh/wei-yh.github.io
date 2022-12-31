@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>https://wei-hy.github.io/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 Dec 2022 17:54:37 +0000</lastBuildDate><atom:link href="https://wei-hy.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>我的博客</title>
+      <link>https://wei-hy.github.io/post/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Fri, 30 Dec 2022 17:54:37 +0000</pubDate>
+      
+      <guid>https://wei-hy.github.io/post/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/</guid>
+      <description>此信息用来测试将hexo环境备份到GitHub - wei-yh/blog上并上传。后续会用来记录下此次博客如何搭建成功，并且部署和备份的。以及在一台新的环境的电脑上如何发布BLOG的。
+前置配置：
+install Node.js https://nodejs.org/en/: 为了安装包管理器npm install -g hexo-cli # npm install hexo #我安装失败了由于众所周知的网络问题 # 使用淘宝镜像 npm install -g cnpm --registry=https://registry.npm.taobao.org cnpm install -g hexo-cli clone 备份项目 blog git clone https://github.com/wei-yh/blog.git 修改过往或者新建blog hexo 命令重新generate 和 deployed hexo clean hexo g hexo d </description>
+    </item>
+    
+  </channel>
+</rss>
