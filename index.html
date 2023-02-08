@@ -5,18 +5,18 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>My New Hugo Site</title><meta name="Description" content="This is my cool site"><meta property="og:title" content="My New Hugo Site" />
+        <title>My Site</title><meta name="Description" content="This is my cool site"><meta property="og:title" content="My Site" />
 <meta property="og:description" content="This is my cool site" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://wei-yh.github.io/" /><meta property="og:site_name" content="My cool site" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="My New Hugo Site"/>
+<meta name="twitter:title" content="My Site"/>
 <meta name="twitter:description" content="This is my cool site"/>
 <meta name="application-name" content="My cool site">
 <meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://wei-yh.github.io/" /><link rel="alternate" href="/index.xml" type="application/rss+xml" title="My New Hugo Site">
-    <link rel="feed" href="/index.xml" type="application/rss+xml" title="My New Hugo Site"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://wei-yh.github.io/" /><link rel="alternate" href="/index.xml" type="application/rss+xml" title="My Site">
+    <link rel="feed" href="/index.xml" type="application/rss+xml" title="My Site"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
     {
@@ -24,8 +24,8 @@
         "@type": "WebSite",
         "url": "https:\/\/wei-yh.github.io\/","inLanguage": "en","author": {
                 "@type": "Person",
-                "name": "xxxx"
-            },"description": "This is my cool site","name": "My New Hugo Site"
+                "name": "Wei"
+            },"description": "This is my cool site","name": "My Site"
     }
     </script></head>
     <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
@@ -33,7 +33,7 @@
         <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
     <div class="header-wrapper">
         <div class="header-title">
-            <a href="/" title="My New Hugo Site">My cool site</a>
+            <a href="/" title="My Site">My cool site</a>
         </div>
         <div class="menu">
             <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
@@ -45,7 +45,7 @@
     <div class="header-container">
         <div class="header-wrapper">
             <div class="header-title">
-                <a href="/" title="My New Hugo Site">My cool site</a>
+                <a href="/" title="My Site">My cool site</a>
             </div>
             <div class="menu-toggle" id="menu-toggle-mobile">
                 <span></span><span></span><span></span>
@@ -58,13 +58,18 @@
 </header><main class="main">
                 <div class="container"><div class="page home" data-home="posts"><div class="home-profile"><div class="home-subtitle"><div id="id-1" class="typeit"></div></div><div class="links"></div></div>
 <article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+        <a href="/posts/doom-emacs-%E9%85%8D%E7%BD%AE-ox-hugo/">doom emacs 配置 ox-hugo</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Zhao Wei</a></span>&nbsp;<span class="post-publish">published on <time datetime="2023-02-08">2023-02-08</time></span></div><div class="content">enable ox-hugo: edit .doom.d/init.el (org +hugo) 配置 ox-hugo: edit .doom.d/config.el 请参考ox-huog 官方教程
+hugo 可以将一个 org 文件的每个 subtree 作为一篇 post， 也可以将每一个独立的 org 文件做为一篇 post。 下面配置的是 all_posts.org 里将 subtree 作为一篇 post 发布。 ;; 设置org的工作目录 (setq org-directory &#34;~/org/&#34;) ;; 设置org-capture (with-eval-after-load &#39;org-capture (defun org-hugo-new-subtree-post-capture-template () &#34;Returns `org-capture&#39; template string for new Hugo post. See `org-capture-templates&#39; for more information.&#34; (let* ((title (read-from-minibuffer &#34;Post Title: &#34;)) ;Prompt to enter the post title (date (format-time-string (org-time-stamp-format :long :inactive) (org-current-time))) (fname (org-hugo-slug title))) (mapconcat #&#39;identity `( ,(concat &#34;* TODO &#34; title) &#34;:PROPERTIES:&#34; ,(concat &#34;:EXPORT_FILE_NAME: &#34; fname) ,(concat &#34;:EXPORT_DATE: &#34; date) ;Enter current date and time &#34;:END:&#34; &#34;%?</div><div class="post-footer">
+        <a href="/posts/doom-emacs-%E9%85%8D%E7%BD%AE-ox-hugo/">Read More</a></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
         <a href="/posts/%E6%89%8B%E6%9C%BA%E7%AB%AF%E5%A6%82%E4%BD%95%E5%86%99%E5%8D%9A%E5%AE%A2%E5%B9%B6%E9%83%A8%E7%BD%B2/">手机端如何写博客并部署</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>xxxx</a></span>&nbsp;<span class="post-publish">published on <time datetime="2023-02-06">2023-02-06</time></span></div><div class="content">下载termux， 安卓系统最好用的终端模拟器 进入termux，下载hugo， git，vim 将之前部署的环境拉倒本地 hugo new post nvim/vim/emacs 编辑并部署 </div><div class="post-footer">
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Wei</a></span>&nbsp;<span class="post-publish">published on <time datetime="2023-02-06">2023-02-06</time></span></div><div class="content">下载termux， 安卓系统最好用的终端模拟器 进入termux，下载hugo， git，vim 将之前部署的环境拉倒本地 hugo new post nvim/vim/emacs 编辑并部署 </div><div class="post-footer">
         <a href="/posts/%E6%89%8B%E6%9C%BA%E7%AB%AF%E5%A6%82%E4%BD%95%E5%86%99%E5%8D%9A%E5%AE%A2%E5%B9%B6%E9%83%A8%E7%BD%B2/">Read More</a></div>
 </article></div></div>
             </main><footer class="footer">
         <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.109.0">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
-                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022 - 2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">xxxx</a></span></div>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022 - 2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Wei</a></span></div>
         </div>
     </footer></div>
 

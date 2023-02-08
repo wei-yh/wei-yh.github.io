@@ -1,15 +1,25 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>My New Hugo Site</title>
+        <title>My Site</title>
         <link>https://wei-yh.github.io/</link>
         <description>This is my cool site</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 06 Feb 2023 15:29:59 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>zhaowei_x@outlook.com (Wei)</managingEditor>
+            <webMaster>zhaowei_x@outlook.com (Wei)</webMaster><lastBuildDate>Wed, 08 Feb 2023 17:52:00 &#43;0800</lastBuildDate>
             <atom:link href="https://wei-yh.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>doom emacs 配置 ox-hugo</title>
+    <link>https://wei-yh.github.io/posts/doom-emacs-%E9%85%8D%E7%BD%AE-ox-hugo/</link>
+    <pubDate>Wed, 08 Feb 2023 17:52:00 &#43;0800</pubDate>
+    <author>Zhao Wei</author>
+    <guid>https://wei-yh.github.io/posts/doom-emacs-%E9%85%8D%E7%BD%AE-ox-hugo/</guid>
+    <description><![CDATA[enable ox-hugo: edit .doom.d/init.el (org +hugo) 配置 ox-hugo: edit .doom.d/config.el 请参考ox-huog 官方教程
+hugo 可以将一个 org 文件的每个 subtree 作为一篇 post， 也可以将每一个独立的 org 文件做为一篇 post。 下面配置的是 all_posts.org 里将 subtree 作为一篇 post 发布。 ;; 设置org的工作目录 (setq org-directory &#34;~/org/&#34;) ;; 设置org-capture (with-eval-after-load &#39;org-capture (defun org-hugo-new-subtree-post-capture-template () &#34;Returns `org-capture&#39; template string for new Hugo post. See `org-capture-templates&#39; for more information.&#34; (let* ((title (read-from-minibuffer &#34;Post Title: &#34;)) ;Prompt to enter the post title (date (format-time-string (org-time-stamp-format :long :inactive) (org-current-time))) (fname (org-hugo-slug title))) (mapconcat #&#39;identity `( ,(concat &#34;* TODO &#34; title) &#34;:PROPERTIES:&#34; ,(concat &#34;:EXPORT_FILE_NAME: &#34; fname) ,(concat &#34;:EXPORT_DATE: &#34; date) ;Enter current date and time &#34;:END:&#34; &#34;%?]]></description>
+</item>
+<item>
     <title>手机端如何写博客并部署</title>
     <link>https://wei-yh.github.io/posts/%E6%89%8B%E6%9C%BA%E7%AB%AF%E5%A6%82%E4%BD%95%E5%86%99%E5%8D%9A%E5%AE%A2%E5%B9%B6%E9%83%A8%E7%BD%B2/</link>
     <pubDate>Mon, 06 Feb 2023 15:29:59 &#43;0000</pubDate>
-    <author>xxxx</author>
+    <author>Wei</author>
     <guid>https://wei-yh.github.io/posts/%E6%89%8B%E6%9C%BA%E7%AB%AF%E5%A6%82%E4%BD%95%E5%86%99%E5%8D%9A%E5%AE%A2%E5%B9%B6%E9%83%A8%E7%BD%B2/</guid>
     <description><![CDATA[下载termux， 安卓系统最好用的终端模拟器 进入termux，下载hugo， git，vim 将之前部署的环境拉倒本地 hugo new post nvim/vim/emacs 编辑并部署 ]]></description>
 </item>

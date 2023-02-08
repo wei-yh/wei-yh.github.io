@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on My New Hugo Site</title>
+    <title>Posts on My Site</title>
     <link>https://wei-yh.github.io/post/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
+    <description>Recent content in Posts on My Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <managingEditor>zhaowei_x@outlook.com (Wei)</managingEditor>
+    <webMaster>zhaowei_x@outlook.com (Wei)</webMaster>
     <lastBuildDate>Fri, 30 Dec 2022 17:54:37 +0000</lastBuildDate><atom:link href="https://wei-yh.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>我的博客</title>
       <link>https://wei-yh.github.io/post/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Fri, 30 Dec 2022 17:54:37 +0000</pubDate>
-      
+      <author>zhaowei_x@outlook.com (Wei)</author>
       <guid>https://wei-yh.github.io/post/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/</guid>
       <description>此信息用来测试将hexo环境备份到GitHub - wei-yh/blog上并上传。后续会用来记录下此次博客如何搭建成功，并且部署和备份的。以及在一台新的环境的电脑上如何发布BLOG的。
 前置配置：
